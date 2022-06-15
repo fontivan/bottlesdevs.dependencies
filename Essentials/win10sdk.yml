@@ -1,0 +1,13 @@
+Name: win10sdk
+Description: Microsoft Windows 10 SDK
+Provider: Microsoft
+License: Microsoft Software License
+License_url: https://aka.ms/WinSDKLicenseURL
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: winsdksetup.exe
+  url: https://download.microsoft.com/download/9/7/9/97982c1d-d687-41be-9dd3-6d01e52ceb68/windowssdk/winsdksetup.exe
+  rename: winsdksetup.exe
+  file_checksum: 67c2212a2445138183246df255ee93ea
+  file_size: 1376240

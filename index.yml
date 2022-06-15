@@ -141,9 +141,20 @@ physx:
 quicktime72:
   Description: QuickTime 7.2.0.240
   Category: Essentials
-
 ie8_kb2936068:
   Description: Cumulative Security Update for Internet Explorer 8
+  Category: Essentials
+windows_app_sdk_10:
+  Description: Windows App SDK 1.0
+  Category: Essentials
+windows_app_sdk_11:
+  Description: Windows App SDK 1.1
+  Category: Essentials
+win10sdk:
+  Description: Windows 10 SDK
+  Category: Essentials
+win11sdk:
+  Description: Windows 11 SDK
   Category: Essentials
 
 # DIRECT3D

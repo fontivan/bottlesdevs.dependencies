@@ -1,0 +1,13 @@
+Name: win11sdk
+Description: Microsoft Windows 11 SDK
+Provider: Microsoft
+License: Microsoft Software License
+License_url: https://aka.ms/WinSDKLicenseURL
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: winsdksetup.exe
+  url: https://download.microsoft.com/download/f/6/7/f673df4b-4df9-4e1c-b6ce-2e6b4236c802/windowssdk/winsdksetup.exe
+  rename: winsdksetup.exe
+  file_checksum: b716086deefd6d9ab2079e1cee417c64
+  file_size: 1385272

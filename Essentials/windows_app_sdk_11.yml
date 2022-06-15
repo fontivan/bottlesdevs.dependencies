@@ -1,0 +1,13 @@
+Name: windows_app_sdk_11
+Description: Microsoft Windows App SDK 1.1
+Provider: Microsoft
+License: Creative Commons Attribution 4.0 International
+License_url: https://github.com/microsoft/WindowsAppSDK/blob/main/LICENSE
+Dependencies: []
+Steps:
+- action: install_exe
+  file_name: WindowsAppRuntimeInstall.exe
+  url: https://aka.ms/windowsappsdk/1.1/latest/windowsappruntimeinstall-1.1-x64.exe
+  rename: windowsappruntimeinstall.exe
+  file_checksum: 9d6dc277e003c9faeab8398dffac6905
+  file_size: 59621792
